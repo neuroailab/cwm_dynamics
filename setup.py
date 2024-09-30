@@ -1,0 +1,35 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="cwm",
+    version="1.0",
+    packages=find_packages(),
+    description="Video modeling transformers package for MAE",
+    author="Rahul Venakatesh, Honglin Chen, Klemen Kotar",
+    install_requires=[
+        'scipy',
+        'scikit-learn',
+        'matplotlib',
+        'h5py',
+        'kornia',
+        'future',
+        'einops',
+        'timm',
+        'opencv-python',
+        # 'decord',
+        'iopath',
+        'pandas',
+        'IPython',
+        'tensorboardx',
+        'tensorboard',
+        'positional_encodings',
+        'scikit-image',
+        'packaging',
+        'wandb',
+        'numpy==1.23.5',
+        'torch==2.0.0',
+        'torchvision==0.15.1',
+        'gradio==4.31.0',
+        'fastapi==0.111.0'
+    ],
+)
