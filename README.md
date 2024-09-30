@@ -98,7 +98,7 @@ The app can also be run on your local cluster using the following command
 python3 gradio_app.py
 ```
 
-Note: the [`get_intervention_outcome`](https://github.com/neuroailab/cwm_release/blob/main/cwm/model/model_pretrain.py#L418) function in the model class is used in scene editing process. As listed below, it takes an input tensor and a set of patch motion parameters, allowing for direct intervention in the scene dynamics by moving patches of the image to new positions. 
+Note: the [`get_intervention_outcome`](https://github.com/neuroailab/cwm_dynamics/blob/main/cwm/model/model_pretrain.py#L418) function in the model class is used in scene editing process. As listed below, it takes an input tensor and a set of patch motion parameters, allowing for direct intervention in the scene dynamics by moving patches of the image to new positions. 
 
 ```python
 def get_intervention_outcome(self, x, move_patches):
