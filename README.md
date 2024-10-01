@@ -21,7 +21,7 @@ This work presents the Counterfactual World Modeling (CWM) framework. CWM is cap
 
 ## 📣 News
 
-- 10-29-2024: Release [project page](https://neuroailab.github.io/cwm-physics/) and [codes](https://github.com/rahulvenkk/cwm_release.git)
+- 10-30-2024: Release [project page](https://neuroailab.github.io/cwm-physics/) and [codes](https://github.com/neuroailab/cwm_dynamics.git)
 
 ## 🔨 Installation
 
