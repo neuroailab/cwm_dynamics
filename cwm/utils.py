@@ -803,9 +803,13 @@ def compute_pairwise_flow_mag_overlap(flow_mag_a, flow_mag_b, normalized=True, e
 
     return mean_non_diag_iou
 
-def overlay_masks_on_image(image, segments, contour_thickness=1):
+def overlay_masks_on_image(image, segments, contour_thickness=1, seed=42):
     if len(segments) == 0:
         return image
+
+    # Seed the random number generator to ensure consistent colors
+    random.seed(seed)
+    np.random.seed(seed)
 
     # Create an RGBA image for the mask overlay
     img = np.array(image.convert("RGBA"))
